@@ -1,0 +1,213 @@
+/* body presets */
+
+	body {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+	
+/* Main */
+	
+	#colorBar {
+			height: 3px;
+			margin: 0em
+			padding: 0em;
+			margin-bottom: 0em;
+			background-color: #ce4d3d;
+		}
+
+	#mainRow {
+			height: 550px;
+			margin: 0em
+			padding: 0em;
+			background-color: black;
+			background-image: url(images/bigmac.png);
+			background-repeat:no-repeat;
+			background-position:center;
+			margin-bottom: 0;
+		}
+
+/* NavBar */
+	
+	#stickyWrapper {
+		}
+
+	.sticky-navigation {
+    		list-style:none;
+    		margin:0;
+    		padding:0;
+    		text-align:center;
+    		
+    		overflow: hidden;
+			width: 100%;
+			margin-bottom: 0;
+			height: 30px;
+			background-color: black;
+			padding-bottom: 15px;
+			padding-top: 10px;
+		}
+	.sticky-navigation.stuck {
+    position: fixed;
+    top: 0;
+		}
+	.sticky-navigation li {
+    	display:inline;
+		}
+	.sticky-navigation a {
+    		display:inline-block;
+    		padding-top:4px;
+    		text-decoration: none;
+    		color:#vea8175
+    		cursor: default;
+		}
+	.sticky-navigation a:visited, a:link, a:hover {
+			color: lightgrey;
+		}
+	.sticky-navigation a:active {
+			color: #ce4d3d;
+			border-bottom: solid;
+			border-color: #ce4d3d;
+		}
+	#selected {
+			color: #ce4d3d;
+			border-bottom: solid;
+			border-color: #ce4d3d;
+		}
+	.navButton {
+			width: 120px;
+			cursor: pointer;
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 600;	
+	}
+
+/* Wrapper div for grid*/
+
+	.wrapper {
+			overflow: hidden;
+			width: 100%; /*set the wrapper width to whatever px you want the site to be */
+		}
+
+/* Row divisions color coded every other item */
+		
+	.firstRow {
+			height: 550px;
+			margin: 0em
+			padding: 0em;
+			background-color:white;
+			margin-bottom: 0em;
+		}
+	.secondRow {
+			height: 550px;
+			margin: 0em
+			padding: 0em;
+			background-color:lightgrey;
+			margin-bottom: 0em;
+		}
+	.thirdRow {
+			height: 250px;
+			margin: 0em
+			padding: 0em;
+			background-color:black;
+			margin-bottom: 0em;
+		}
+	.fourthRow {
+			height: 550px;
+			margin: 0em
+			padding: 0em;
+			background-color:white;
+			margin-bottom: 0em;
+		}
+	.fifthRow {
+			height: 550px;
+			margin: 0em
+			padding: 0em;
+			background-color:lightgrey;
+			margin-bottom: 0em;
+		}
+	.sixthRow {
+			height: 50px;
+			margin: 0em
+			padding: 0em;
+			background-color:black;
+			margin-bottom: 0em;
+		}
+		
+/* end row divisions
+
+/* Columns in use*/
+
+	.edCol {
+			float: left;
+			width: 30.6667%;
+			margin-right: 4%;
+			height: 550px;
+			text-align: center;
+		}
+	.edColLast {
+			margin-right: 0;
+			height: 550px;
+			text-align: center;
+		}
+
+/* 4 columns of 22%, 3 margins of 4%
+
+	.4column {
+			float: left;
+			width: 22%;
+			margin-right: 4%;
+		}
+	.4columnLast {
+			margin-right: 0;
+		}
+
+/* 3 columns of 30.66%, 2 margins of 4%
+
+	.3column {
+			float: left;
+			width: 30.6667%;
+			margin-right: 4%;
+		}
+	.3columnLast {
+			margin-right: 0;
+		}
+/* 6 columns of 15%, 5 margins of 2%
+
+	.6column {
+			float: left;
+			width: 15%;
+			margin-right:2%
+		}
+	.6columnLast {
+			margin-right: 0;
+		}
+
+/* 8 columns of 12.5, 7 margins of 0
+
+	.8column {
+			float: left;
+			width: 12.5%;
+			margin-right: 0;
+		}
+	.8columnLast {
+			margin-right: 0;
+		}
+
+/* end columns */
+
+/* footer */
+
+	.footer {
+			width: 100%;
+			padding-top: 9px;
+			padding-left: 17px;
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 400;
+			font-size: 12px;
+			color: lightgrey;
+			float: left;
+			text-align: center;
+		}
+
