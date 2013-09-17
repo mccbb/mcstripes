@@ -93,35 +93,35 @@
 /* Row divisions color coded every other item */
 		
 	.firstRow {
-			height: 550px;
+			height: 200px;
 			margin: 0em
 			padding: 0em;
 			background-color:white;
 			margin-bottom: 0em;
 		}
 	.secondRow {
-			height: 550px;
+			height: 200px;
 			margin: 0em
 			padding: 0em;
 			background-color:lightgrey;
 			margin-bottom: 0em;
 		}
 	.thirdRow {
-			height: 250px;
+			height: 200px;
 			margin: 0em
 			padding: 0em;
 			background-color:black;
 			margin-bottom: 0em;
 		}
 	.fourthRow {
-			height: 550px;
+			height: 200px;
 			margin: 0em
 			padding: 0em;
 			background-color:white;
 			margin-bottom: 0em;
 		}
 	.fifthRow {
-			height: 550px;
+			height: 200px;
 			margin: 0em
 			padding: 0em;
 			background-color:lightgrey;
@@ -143,12 +143,12 @@
 			float: left;
 			width: 30.6667%;
 			margin-right: 4%;
-			height: 550px;
+			/*height: 550px;*/
 			text-align: center;
 		}
 	.edColLast {
 			margin-right: 0;
-			height: 550px;
+			/*height: 550px;*/
 			text-align: center;
 		}
 
