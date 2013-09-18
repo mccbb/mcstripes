@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Plaster' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+	
+	/* icon import and class declaration */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+	 /* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+	}
+	
+	/* reset */
+body, p, div, h1, h2, h3, span {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	}
+h1, h2, h3, h4 {
+	font-family: 'Quicksand', sans-serif;
+	}	
+
+	/* main element attributes */
+p {
+	margin-bottom: 10px;
+	font-family: 'Quicksand', sans-serif;
+	}
+p a, a:link {
+	color: black;
+	text-decoration: none;
+	/*border-bottom: 1px solid lightgreen;*/
+	}
+	
+	
+	/* custom classes for spans and main elements */
+.linkUnderline {
+	border-bottom: 1px solid lightgreen;
+	}
+.quote {
+	text-align: left;
+	font-style: italic;
+	display:inline-block;
+	margin-left: 5%;
+	width: 80%;
+	border-left: 5px;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+	border-style: solid;
+	border-color: lightgreen;
+	padding-left: 10px;
+	}
+	
+	/* document wrap */
+#wrapper {
+	max-width: 100%;
+	overflow: hidden;
+	}
+
+	/* left navbar */
+.sidebar {
+	position: fixed;
+	float: left;
+	width: 65px;
+	height: 100%;
+	min-height: 548px;
+	background: #f6f5f5;
+	overflow: hidden;
+	z-index: 500;
+	text-align: left;
+	color: white;
+	}
+.sidebar {
+	display: block;
+	text-decoration: none;
+	color: #e0e0e0;
+	font-size: 15px;
+	float: left;
+	}
+a, a:visited, a:link, a:hover, a:active {
+	/*font-family: 'Gafata', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	/*display: block;*/
+	width: 65px;
+	color: grey;
+	text-decoration: none;
+	}
+#logo {
+	margin-top: 80px;
+	/*background-image: url(images/logo_02.png);*/
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-color: #2a2a2a;
+	height: 80px;
+	}
+#logofont {
+	font-family: 'Plaster', cursive;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 14px;
+	}
+.navItem {
+	border-style: solid;
+	border-color: #e0e0e0;
+	border-width: 1px;
+	border-top: 1px;
+	border-left: 0;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	}
+.navItem a {
+	color: grey;
+	font-family: 'Gafata', sans-serif;
+	}
+	
+	/* color splash at top of screen */
+.colorRow {
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: lightgreen;
+	height: 2px;
+	}
+	
+	/* White authors top nav bar */
+.row1 {
+	height: 80px;
+	float: left;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	}
+#authorCircle {
+	text-align: right;
+	float: right;
+	margin-right: 65px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url(images/facecircle.png);
+	background-repeat: no-repeat; 
+	height: 100%;
+	width: 60px;
+	}
+	#authorName {
+	float: right;
+	height: 100%;
+	width: 200px;
+	vertical-align: middle;
+	margin-top: 32px;
+	padding-right: 65px;
+	text-align: right;
+	}
+.tlspacer {
+	padding-right: 10px;
+	}
+
+	/* article content area */
+.row2 {
+	min-height: 550px;
+	float: left;
+	background-color: white;
+	margin-left: 65px;
+	padding-left: 65px;
+	text-align: left;
+	padding-bottom: 40px;
+	}
+.title {
+	float: left;
+	color: #2a2a2a;
+	margin-top: 0px;
+	padding-left: 10px;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 10px;
+	border-color: #2a2a2a;
+	border-style: solid;
+	width: 15%;
+	}
+.content {
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 50%;
+	text-decoration: none;
+	}
+.leftempty {
+	float: left;
+	width: 144px;
+	background-color: black;
+	}
+	
+	/* footer area */
+.row3 {
+	min-height: 200px;
+	float: left;
+	background-color: lightgreen;
+	margin-left: 65px;
+	padding-left: 85px;
+	padding-bottom: 45px;
+	}
+.footer {
+	float: left;
+	margin-left: 15%;
+	padding-top: 65px;
+	width: 50%;
+	color: black;
+	height: 100%;
+	}
+.readmoretitle {
+	float: left;
+	color: #2a2a2a;
+	margin-top: 0px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 10px;
+	border-color: #2a2a2a;
+	border-style: solid;
+	width: 100%;
+	}
+#subFoot {
+	font-size: 12px;
+	}	
+.subfootdiv {
+	padding-top: 50px;
+	}
+	</style>
+	
+	<title>Mac Cobb</title>
+	
+</head>
+
+<body>
+<div id="wrapper">
+	
+	
+	<!-- green colorsplash row at the top -->
+	<div class="colorRow">
+	</div>
+	
+	
+	<!-- side navbar -->
+	<div class="sidebar">
+		<div id="logo">
+		<a href="#"><h2 id="logofont">S</h2></a>
+		</div>
+		<div class="navItem">
+			<a href="https://github.com/login">Login</a>
+		</div>
+		<div class="navItem">
+			<a href="https://github.com/login">Create</a>
+		</div>
+	</div>
+
+
+	<!-- white authors nav row-->
+	<div class="row1">
+		<!-- <div id="authorCircle">
+		</div>-->
+		<div id="authorName">
+			<a class="tlspacer" href="http://www.maccobb.com">Mac Cobb</a>
+			<a class="tlspacer" href="mailto:mac@maccobb.com?Subject=Hello%20Mac"><span class="fontawesome-envelope"></span></a>
+			<a class="tlspacer" href="https://www.facebook.com/mac.cobb.3"><span class="fontawesome-facebook"></span></a>
+			<a href="https://plus.google.com/109232243812056279766/posts"><span class="fontawesome-google-plus"></span></a>	
+		</div>		
+	</div>
+	
+	
+	<!-- Content area -->
+	<div class="row2">
+		<div class="title">
+			<h2>Domain Dependance</h2>
+			<p>September 17, 2013<p>
+		</div>
+		<div class="content">
+		<p>One of the books I am reading right now is <a class="linkUnderline" href="http://www.amazon.com/Antifragile-Things-That-Gain-Disorder/dp/1400067820">Antifragile</a> by <a class="linkUnderline" href="http://en.wikipedia.org/wiki/Nassim_Nicholas_Taleb">Nassim Nicholas Taleb</a>. It is a fascinating treatise on the theory of antifragility, which is that some things gain from disorder. Examples include muscles (when we work out we are tearing our muscles apart and letting them grow back stronger), theories of <a class="linkUnderline" href="http://en.wikipedia.org/wiki/Hormesisd">hormesis</a>, and <a class="linkUnderline" href="http://en.wikipedia.org/wiki/Mithridatism">mithridatization</a> (<a class="linkUnderline" href="http://youtu.be/dzaL8wiSjnM">have you seen the Princess Bride recently?</a>).</p>
+
+<p>From the perspective of the economist within me, this is an interesting theory of economic bricolage - (in french bricolage originally meant trial and error). A quote from the book illustrates this idea:</p>
+
+<p><span class="quote">We should treat failed entrepreneurs with the reverence that we reserve for fallen soldiers.</span></p>
+ 
+<p>If trial and error is the means by which economies, governments, philosophies, and civilizations are built, is it possible that this same trial and error is responsible for making us stronger? Could error and catastrophe share a causal relationship with future success and growth? In our economic models today we are trying to root out all potential market failures, bankruptcies, and shortcomings, while simultaneously strengthening and growing our markets. Is it possible do both?</p>
+
+<p>While treating failed entrepreneurs with the reverence awarded a fallen soldier is a romantic notion for me, one of my favorite concepts the author has discussed so far is that of domain independence being fundamentally domain dependent.</p>
+
+<h4>Domains in context</h4>
+
+<p>A domain, in this context, can be defined as an area or category of activity. To develop the intuition behind this idea, consider all the different roles and activities you participate in. Using myself as an example, I am a student/economist, a family member, a roommate, a member of the Church of Jesus Christ of Latter Day Saints, an entrepreneur, an athlete, and a musician, just to name a few things (I could keep going). These are all different domains.</p>
+
+<p>The concept of domain dependent is that while we might understand and apply a principle in one domain, we tend to forget it and act differently in another domain. An example of this is the wealthy banker. While routinely employing the porter to carry heavy luggage to his flat, he also routinely lifts weights at the gym. Aren't carrying heavy bags up the stairs and going to the gym essentially fulfilling the same purpose?</p>
+
+<p>Domain dependence is when we have ideals that we adhere to, but not independently of our domains. In other words, we live certain rules or develop habits in <em>some</em> aspects of our lives that do not apply to <em>all</em> aspects of our lives. We tend to understand the world by compartmentalizing knowledge into domain areas. Antifragile suggests that domain dependence is a mental handicap that all of us face. It inhibits progressive growth by forcing our ideological processes through a series of domain-controlled sphincters before it becomes something we do or think independently of any domains.</p>
+		</div>
+	</div>
+	
+	
+	<!-- footer -->
+	<div class="row3">
+		<div class="footer">
+		
+			<div><p>Read More by Mac Cobb</p>
+			</div>
+			
+			<div class="readmoretitle">
+				<h2>Mac hasn't written another piece</h2> 
+				<p>But it's coming soon</p>
+			</div>
+			
+			<div class="readmoretitle">
+				<h2>Mac hasn't written another piece</h2> 
+				<p>But it's coming soon</p>
+			</div>
+
+			<div><p><span id="subFoot">TryStripes.io Created by Mac Cobb, 2013.  Version 1.4.13</span></p>
+			</div>
+			
+		</div>
+	</div>
+	
+</div> <!-- wrapper ends here -->
+</body>
+</html>
