@@ -1,4 +1,4 @@
 mcstripes
 =========
 
-http://mcstripes.github.it/mcstripes
+http://mcstripes.github.io/mcstripes
