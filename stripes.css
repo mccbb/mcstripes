@@ -2,6 +2,7 @@
 
 	body {
 		width: 100%;
+		min-width: 1155px;
 		margin: 0;
 		padding: 0;
 		margin-left: 0;
@@ -93,10 +94,10 @@
 /* Row divisions color coded every other item */
 		
 	.firstRow {
-			height: 200px;
+			height: 250px;
 			margin: 0em
 			padding: 0em;
-			background-color:white;
+			background-color:lightgrey;
 			margin-bottom: 0em;
 		}
 	.secondRow {
@@ -135,22 +136,48 @@
 			margin-bottom: 0em;
 		}
 		
-/* end row divisions
+/* end row divisions */
 
 /* Columns in use*/
 
-	.edCol {
+	.edColLeft {
 			float: left;
-			width: 30.6667%;
-			margin-right: 4%;
+			width: 33.333%;
+			min-width: 385px;
+			margin-right: 0%;
+			margin-top: 10px;
+			/*height: 550px;*/
+			text-align: right;
+			display: block;
+		}
+	.edColCenter {
+			float: left;
+			width: 33.333%;
+			min-width: 385px;
+			margin-right: 0%;
+			margin-top: 10px;
 			/*height: 550px;*/
 			text-align: center;
 		}
-	.edColLast {
-			margin-right: 0;
+	.edColRight {
+			float: left;
+			width: 33.333%;
+			min-width: 385px;
+			margin-right: 0%;
+			margin-top: 10px;
 			/*height: 550px;*/
-			text-align: center;
-		}
+			text-align: left;
+		}	
+	.5column {
+		float: left;
+		width: 20%;
+		margin-right: 0;
+		padding-right: 0;
+		text-align: left;
+	}
+	.5columnLast {
+		float: left;
+	}
 
 /* 4 columns of 22%, 3 margins of 4%
 
@@ -183,6 +210,16 @@
 	.6columnLast {
 			margin-right: 0;
 		}
+
+/* 5 columns of 20%		
+	.5column {
+		float: left;
+		width: 20%;
+		padding-right: 2px;
+	}
+	.5columnLast {
+		float: left;
+	}
 
 /* 8 columns of 12.5, 7 margins of 0
 
