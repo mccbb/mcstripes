@@ -101,7 +101,7 @@
 			margin-bottom: 0em;
 		}
 	.secondRow {
-			height: 200px;
+			height: 148px;
 			margin: 0em
 			padding: 0em;
 			background-color:lightgrey;
@@ -111,21 +111,21 @@
 			height: 200px;
 			margin: 0em
 			padding: 0em;
-			background-color:black;
+			background-color:white;
 			margin-bottom: 0em;
 		}
 	.fourthRow {
 			height: 200px;
 			margin: 0em
 			padding: 0em;
-			background-color:white;
+			background-color:lightgrey;
 			margin-bottom: 0em;
 		}
 	.fifthRow {
 			height: 200px;
 			margin: 0em
 			padding: 0em;
-			background-color:lightgrey;
+			background-color:white;
 			margin-bottom: 0em;
 		}
 	.sixthRow {
@@ -173,7 +173,7 @@
 		width: 20%;
 		margin-right: 0;
 		padding-right: 0;
-		text-align: left;
+		text-align: center;
 	}
 	.fiveColumnLast {
 		float: left;
