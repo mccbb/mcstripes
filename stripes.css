@@ -168,14 +168,14 @@
 			/*height: 550px;*/
 			text-align: left;
 		}	
-	.5column {
+	.fiveColumn {
 		float: left;
 		width: 20%;
 		margin-right: 0;
 		padding-right: 0;
 		text-align: left;
 	}
-	.5columnLast {
+	.fiveColumnLast {
 		float: left;
 	}
 
